@@ -1,0 +1,155 @@
+[info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 21.0.4)
+[info] loading settings for project auth-backend-build-build-build from metals.sbt ...
+[info] loading project definition from /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/project/project
+[info] loading settings for project auth-backend-build-build from metals.sbt ...
+[info] loading project definition from /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/project
+[success] Generated .bloop/auth-backend-build-build.json
+[success] Total time: 1 s, completed 2024/08/29 8:18:32
+[info] loading settings for project auth-backend-build from metals.sbt,plugins.sbt ...
+[info] loading project definition from /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project
+[success] Generated .bloop/auth-backend-build.json
+[success] Total time: 0 s, completed 2024/08/29 8:18:33
+[info] loading settings for project root from build.sbt ...
+[info]   __              __
+[info]   \ \     ____   / /____ _ __  __
+[info]    \ \   / __ \ / // __ `// / / /
+[info]    / /  / /_/ // // /_/ // /_/ /
+[info]   /_/  / .___//_/ \__,_/ \__, /
+[info]       /_/               /____/
+[info] 
+[info] Version 3.0.5 running Java 21.0.4
+[info] 
+[info] Play is run entirely by the community. Please consider contributing and/or donating:
+[info] https://www.playframework.com/sponsors
+[info] 
+[info] compiling 1 Scala source to /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/target/scala-2.13/test-classes ...
+[info] done compiling
+[info] AuthControllerSpec:
+[info] AuthController token
+[info] - should return tokens for valid credentials
+[info] - should return Unauthorized for invalid credentials
+[info] AuthController refreshToken
+[info] - should return new tokens for a valid refresh token
+[info] - should return Unauthorized for an invalid refresh token
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-HomeControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+[info] HomeControllerSpec:
+[info] HomeController GET
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should return a JSON response with a success status
+[info] UserControllerSpec:
+[info] UserController
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should return a list of users
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should return Unauthorized when token is invalid
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should return a user by id
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-5] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should create a new user
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should update an existing user
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should delete a user
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should update user's API key
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should fail to update a user with invalid data *** FAILED ***
+[info]   None was not defined (UserControllerSpec.scala:223)
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-6] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should fail to create a user with invalid input *** FAILED ***
+[info]   java.lang.IllegalArgumentException: Invalid input
+[info]   at controllers.UserControllerSpec.$anonfun$new$10(UserControllerSpec.scala:243)
+[info]   at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+[info]   at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+[info]   at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:22)
+[info]   at org.scalatest.Transformer.apply(Transformer.scala:20)
+[info]   at org.scalatest.wordspec.AnyWordSpecLike$$anon$3.apply(AnyWordSpecLike.scala:1240)
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+[info]   at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+[info]   at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+[info]   at controllers.UserControllerSpec.org$scalatestplus$play$BaseOneAppPerTest$$super$withFixture(UserControllerSpec.scala:21)
+[info]   ...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should return Unauthorized when no token is provided
+2024-08-29 08:18:37 [pool-1-thread-1-ScalaTest-running-UserControllerSpec] INFO  p.a.http.HttpErrorHandlerExceptions - Registering exception handler: guice-provision-exception-handler
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.event.slf4j.Slf4jLogger - Slf4jLogger started
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  o.a.pekko.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ApplicationStoppedReason]
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Starting...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Start completed.
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown initiated...
+2024-08-29 08:18:37 [application-pekko.actor.default-dispatcher-4] INFO  com.zaxxer.hikari.HikariDataSource - db - Shutdown completed.
+[info] - should fail to update API key with missing apikey in request body
+[info] Run completed in 1 second, 682 milliseconds.
+[info] Total number of tests run: 16
+[info] Suites: completed 3, aborted 0
+[info] Tests: succeeded 14, failed 2, canceled 0, ignored 0, pending 0
+[info] *** 2 TESTS FAILED ***
+[error] Failed tests:
+[error] 	controllers.UserControllerSpec
+[error] (Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 4 s, completed 2024/08/29 8:18:37

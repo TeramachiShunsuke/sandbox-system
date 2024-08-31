@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: ./frontend-nextjs  # Vue.jsアプリケーションのルートディレクトリ
+      dockerfile: Dockerfile  # Vue.jsアプリケーション用のDockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_AUTH_SECRET=your-256-bit-secret
+      - NEXT_PUBLIC_BASE_URL=http://backend:9000
+      - NEXTAUTH_URL=http://frontend:3000
+    depends_on:
+      - backend
+  backend:
+    build:
+      context: ./auth-backend
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+    environment:
+      DATABASE_URL: jdbc:mysql://db:3306/db
+      DB_USER: dbuser
+      DB_PASSWORD: dbuser
+    depends_on:
+      - db
+
+  db:
+    build:
+      context: ./database  # DB用Dockerfileがあるディレクトリを指定
+      dockerfile: Dockerfile  # DB用のDockerfile
+    ports:
+      - "3306:3306"  # MySQLのポートマッピング
+    volumes:
+      - db-data:/var/lib/mysql  # データの永続化
+
+volumes:
+  db-data:

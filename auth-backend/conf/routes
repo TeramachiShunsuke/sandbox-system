@@ -1,0 +1,21 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+GET     /                           controllers.HomeController.index()
+
+# User routes Bearerトークンが必要です
+GET        /users                controllers.UserController.listUsers
+GET        /users/:id            controllers.UserController.getUser(id: String)
+POST       /users                controllers.UserController.createUser
+PUT        /users/:id            controllers.UserController.updateUser(id: String)
+DELETE     /users/:id            controllers.UserController.deleteUser(id: String)
+PUT        /users/:id/apikey     controllers.UserController.updateApikey(id: String)
+
+# Authentication routes
+POST       /auth/token              controllers.AuthController.token
+POST       /auth/refresh_token      controllers.AuthController.refreshToken
+
+# GET        /protected/resource      controllers.AuthController.protectedResource

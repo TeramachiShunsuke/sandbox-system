@@ -1,0 +1,159 @@
+2024.08.26 23:56:10 INFO  Started: Metals version 1.3.5 in folders '/Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend' for client Visual Studio Code 1.92.2.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@72403f60]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@c54f883]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@72403f60]
+2024.08.26 23:56:10 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.08.26 23:57:06 INFO  running '/Users/shunsuke/Library/Application Support/Coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.08.26 23:57:06 WARN  no build target for: /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/project/metals.sbt[0m
+2024.08.26 23:57:06 WARN  no build target for: /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/metals.sbt[0m
+2024.08.26 23:57:06 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:09 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 11.0.24)[0m
+2024.08.26 23:57:10 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:11 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:12 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:12 INFO  [info] loading settings for project auth-backend-build-build-build from metals.sbt ...[0m
+2024.08.26 23:57:14 INFO  [info] loading project definition from /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/project/project[0m
+2024.08.26 23:57:15 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:15 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:15 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:16 INFO  [info] loading settings for project auth-backend-build-build from metals.sbt ...[0m
+2024.08.26 23:57:16 INFO  [info] loading project definition from /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/project[0m
+2024.08.26 23:57:17 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:17 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:18 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:20 INFO  [success] Generated .bloop/auth-backend-build-build.json[0m
+2024.08.26 23:57:20 INFO  [success] Total time: 3 s, completed 2024/08/26 23:57:20[0m
+2024.08.26 23:57:21 INFO  [info] loading settings for project auth-backend-build from metals.sbt,plugins.sbt ...[0m
+2024.08.26 23:57:21 INFO  [info] loading project definition from /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project[0m
+2024.08.26 23:57:23 INFO  [success] Generated .bloop/auth-backend-build.json[0m
+2024.08.26 23:57:23 INFO  [success] Total time: 2 s, completed 2024/08/26 23:57:24[0m
+2024.08.26 23:57:26 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:26 INFO  [info] loading settings for project root from build.sbt ...[0m
+2024.08.26 23:57:27 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:26 INFO  [info]   __              __[0m
+2024.08.26 23:57:26 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2024.08.26 23:57:26 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2024.08.26 23:57:26 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2024.08.26 23:57:26 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2024.08.26 23:57:26 INFO  [info]       /_/               /____/[0m
+2024.08.26 23:57:26 INFO  [info] [0m
+2024.08.26 23:57:26 INFO  [info] Version 3.0.5 running Java 11.0.24[0m
+2024.08.26 23:57:26 INFO  [info] [0m
+2024.08.26 23:57:26 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2024.08.26 23:57:26 INFO  [info] https://www.playframework.com/sponsors[0m
+2024.08.26 23:57:26 INFO  [info] [0m
+2024.08.26 23:57:27 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:27 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:27 INFO  no build target found for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/build.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.26 23:57:29 INFO  [success] Generated .bloop/root.json[0m
+2024.08.26 23:57:29 INFO  [success] Generated .bloop/root-test.json[0m
+2024.08.26 23:57:29 INFO  [success] Total time: 2 s, completed 2024/08/26 23:57:29[0m
+2024.08.26 23:57:29 INFO  time: ran 'sbt bloopInstall' in 23s[0m
+2024.08.26 23:57:29 INFO  Attempting to connect to the build server...[0m
+2024.08.26 23:57:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/.metals/bsp.trace.json or /Users/shunsuke/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.08.26 23:57:29 INFO  Attempting to connect to the build server...[0m
+2024.08.26 23:57:29 INFO  Attempting to connect to the build server...[0m
+2024.08.26 23:57:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/project/.metals/bsp.trace.json or /Users/shunsuke/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.08.26 23:57:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/.metals/bsp.trace.json or /Users/shunsuke/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.08.26 23:57:30 INFO  time: Connected to build server in 0.78s[0m
+2024.08.26 23:57:30 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.08.26 23:57:30 INFO  time: Imported build in 0.25s[0m
+2024.08.26 23:57:30 INFO  running doctor check[0m
+2024.08.26 23:57:30 INFO  java targets: auth-backend-build, auth-backend-build-build, root-test, root[0m
+2024.08.26 23:57:37 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.08.26 23:57:51 INFO  time: indexed workspace in 20s[0m
+2024.08.26 23:58:23 INFO  running '/Users/shunsuke/Library/Application Support/Coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.08.26 23:58:26 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 11.0.24)[0m
+2024.08.26 23:58:26 INFO  [info] loading settings for project auth-backend-build-build-build from metals.sbt ...[0m
+2024.08.26 23:58:28 INFO  [info] loading project definition from /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/project/project[0m
+2024.08.26 23:58:28 INFO  [info] loading settings for project auth-backend-build-build from metals.sbt ...[0m
+2024.08.26 23:58:29 INFO  [info] loading project definition from /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/project[0m
+2024.08.26 23:58:32 INFO  [success] Generated .bloop/auth-backend-build-build.json[0m
+2024.08.26 23:58:32 INFO  [success] Total time: 3 s, completed 2024/08/26 23:58:32[0m
+2024.08.26 23:58:32 INFO  [info] loading settings for project auth-backend-build from metals.sbt,plugins.sbt ...[0m
+2024.08.26 23:58:32 INFO  [info] loading project definition from /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project[0m
+2024.08.26 23:58:33 INFO  [success] Generated .bloop/auth-backend-build.json[0m
+2024.08.26 23:58:33 INFO  [success] Total time: 1 s, completed 2024/08/26 23:58:33[0m
+2024.08.26 23:58:37 INFO  [info] loading settings for project root from build.sbt ...[0m
+2024.08.26 23:58:37 INFO  [info]   __              __[0m
+2024.08.26 23:58:37 INFO  [info]   \ \     ____   / /____ _ __  __[0m
+2024.08.26 23:58:37 INFO  [info]    \ \   / __ \ / // __ `// / / /[0m
+2024.08.26 23:58:37 INFO  [info]    / /  / /_/ // // /_/ // /_/ /[0m
+2024.08.26 23:58:37 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /[0m
+2024.08.26 23:58:37 INFO  [info]       /_/               /____/[0m
+2024.08.26 23:58:37 INFO  [info] [0m
+2024.08.26 23:58:37 INFO  [info] Version 3.0.5 running Java 11.0.24[0m
+2024.08.26 23:58:37 INFO  [info] [0m
+2024.08.26 23:58:37 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:[0m
+2024.08.26 23:58:37 INFO  [info] https://www.playframework.com/sponsors[0m
+2024.08.26 23:58:37 INFO  [info] [0m
+2024.08.26 23:58:42 INFO  [success] Generated .bloop/root.json[0m
+2024.08.26 23:58:42 INFO  [success] Generated .bloop/root-test.json[0m
+2024.08.26 23:58:42 INFO  [success] Total time: 5 s, completed 2024/08/26 23:58:42[0m
+2024.08.26 23:58:42 INFO  time: ran 'sbt bloopInstall' in 19s[0m
+2024.08.26 23:58:42 INFO  Disconnecting from Bloop session...[0m
+2024.08.26 23:58:42 INFO  Shut down connection with build server.[0m
+2024.08.26 23:58:42 INFO  Shut down connection with build server.[0m
+2024.08.26 23:58:42 INFO  Shut down connection with build server.[0m
+2024.08.26 23:58:42 INFO  Attempting to connect to the build server...[0m
+2024.08.26 23:58:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/.metals/bsp.trace.json or /Users/shunsuke/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.08.26 23:58:42 INFO  Attempting to connect to the build server...[0m
+2024.08.26 23:58:42 INFO  Attempting to connect to the build server...[0m
+2024.08.26 23:58:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/.metals/bsp.trace.json or /Users/shunsuke/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.08.26 23:58:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/project/project/.metals/bsp.trace.json or /Users/shunsuke/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2024.08.26 23:58:43 INFO  time: Connected to build server in 0.1s[0m
+2024.08.26 23:58:43 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.08.26 23:58:43 INFO  running doctor check[0m
+2024.08.26 23:58:43 INFO  java targets: auth-backend-build, auth-backend-build-build, root-test, root[0m
+2024.08.26 23:58:49 INFO  time: indexed workspace in 6.02s[0m
+8月 26, 2024 11:59:22 午後 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 207
+2024.08.26 23:59:22 INFO  compiling root (8 scala sources and 1 java source)[0m
+2024.08.26 23:59:27 WARN  Unexpected javac output: WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.sourcegraph.shaded.com.sourcegraph.semanticdb_javac.SemanticdbJavacOptions (file:/Users/shunsuke/Library/Caches/bloop/semanticdb/com.sourcegraph.semanticdb-javac.0.10.0/semanticdb-javac-0.10.0.jar) to method com.sun.tools.javac.api.BasicJavacTask.getContext()
+WARNING: Please consider reporting this to the maintainers of com.sourcegraph.shaded.com.sourcegraph.semanticdb_javac.SemanticdbJavacOptions
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release.[0m
+2024.08.26 23:59:27 INFO  time: compiled root in 4.59s[0m
+2024.08.26 23:59:45 INFO  compiling root (1 scala source)[0m
+2024.08.26 23:59:45 INFO  time: compiled root in 0.38s[0m
+2024.08.26 23:59:50 INFO  compiling root (1 scala source)[0m
+2024.08.26 23:59:50 INFO  time: compiled root in 0.18s[0m
+2024.08.27 00:00:09 INFO  compiling root (1 scala source)[0m
+2024.08.27 00:00:10 INFO  time: compiled root in 1.2s[0m
+2024.08.27 00:00:10 INFO  compiling root (1 scala source)[0m
+2024.08.27 00:00:11 WARN  Could not load snapshot text for /Users/shunsuke/develop/github.com/TeramachiShunsuke/sandbox-system/auth-backend/app/models/User.scala[0m
+2024.08.27 00:00:12 INFO  time: compiled root in 0.78s[0m
+2024.08.27 00:00:20 INFO  compiling root (1 scala source)[0m
+2024.08.27 00:00:20 INFO  time: compiled root in 0.27s[0m
+2024.08.27 00:00:28 INFO  compiling root (1 scala source)[0m
+2024.08.27 00:00:28 INFO  time: compiled root in 0.18s[0m
+2024.08.27 00:00:46 INFO  compiling root (1 scala source)[0m
+2024.08.27 00:00:46 INFO  time: compiled root in 0.21s[0m
+2024.08.27 00:00:49 INFO  compiling root (1 scala source)[0m
+2024.08.27 00:00:49 INFO  time: compiled root in 0.24s[0m
+2024.08.27 00:00:53 INFO  compiling root (1 scala source)[0m
+2024.08.27 00:00:53 INFO  time: compiled root in 0.15s[0m
+2024.08.27 00:01:24 INFO  compiling root (1 scala source)[0m
+2024.08.27 00:01:24 INFO  time: compiled root in 0.18s[0m
+Exception in thread "Thread-30" java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:263)
+	at java.base/java.nio.file.Path.of(Path.java:147)
+	at java.base/java.nio.file.Paths.get(Paths.java:69)
+	at com.swoval.files.ApplePathWatcher$1.accept(ApplePathWatcher.java:268)
+	at com.swoval.files.ApplePathWatcher$1.accept(ApplePathWatcher.java:261)
+	at com.swoval.files.apple.FileEventMonitorImpl$WrappedConsumer$1.run(FileEventMonitors.java:178)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Exception in thread "Thread-36" java.lang.OutOfMemoryError: Java heap space
+java.lang.OutOfMemoryError: Java heap space
+Exception in thread "com.swoval.files.apple.FileEventsMonitor.runloop" java.lang.OutOfMemoryError: Java heap space
+	at com.swoval.files.apple.FileEventMonitorImpl.loop(Native Method)
+	at com.swoval.files.apple.FileEventMonitorImpl.access$800(FileEventMonitors.java:51)
+	at com.swoval.files.apple.FileEventMonitorImpl$2.run(FileEventMonitors.java:91)
