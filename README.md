@@ -10,6 +10,19 @@ This project is a fully integrated system built from the backend to the frontend
 
 The system authenticates users through an authentication backend and provides task data to authenticated users. Future plans include adding more APIs, improving the frontend design, and deploying the system on Kubernetes.
 
+## About 
+The directory structure is as follows:
+
+- `./auth-backend`  
+  This directory contains the backend for authentication logic, built with Play Framework.  
+  - You can start the server with the command: `sbt run`.
+
+- `./frontend-nextjs`  
+  This directory contains the frontend built with Next.js. The functionality is currently under development.
+
+- `./database`  
+  This directory holds the initial database scripts and the Dockerfile.
+
 ## Installation Instructions
 
 ```sh
