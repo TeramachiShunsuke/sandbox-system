@@ -86,6 +86,51 @@ In the future, I plan to deploy this on Kubernetes.
   docker build -t db ./database/.
   docker run --name db-container -p 3306:3306 -d db
 
+
+- Start Docker 
+```sh
+docker compose up --build
+
+```
+
+### Access to the Frontend
+
+After dockercompose build, access the following URL
+
+```
+http://localhost:3000
+```
+
+![loginpage](./image/signup-page-image.png)
+
+username : admin
+password : password123
+
+access to the site is successful.
+So far only SignIn is working.
+
+If successful, the following page will appear
+
+![successpage](./image/success-page-image.png)
+
+### Access to the Backend
+
+If you want access to the back end, [here](http://localhost:9000).
+
+The schema of the API is . /auth-backend/conf/routes for reference.
+
+
+### Access to the Database
+
+Basic information is as follows
+
+```sh
+PORT=3306
+DATABASENAME=db
+USERNAME=dbuser
+PASSWORD=dbuser
+```
+
 - Stop and Clean Up Docker
 
 ```sh

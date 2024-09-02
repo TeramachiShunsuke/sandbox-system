@@ -19,6 +19,8 @@ vim /etc/hosts
 
 [デプロイ先](http://frontend.minikube.local)
 
+デプロイ先にアクセスができると以下のページが出てきます。
+![loginpage](../image/signup-page-image.png)
 
 成功している時のアクセスの仕方
 ```sh
